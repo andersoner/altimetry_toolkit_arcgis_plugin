@@ -1,0 +1,20 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Python Addin</Name><AddInID>{3a498267-fb34-4e06-8f2f-352d5782e175}</AddInID><Description>Altimetry Toolkit for JASON2 and ALTIKA/SARAL</Description><Version>1.0</Version><Image /><Author>Jagan Ranganathan</Author><Company>Untitled</Company><Date>05/03/2016</Date><Targets><Target name="Desktop" version="10.2" /></Targets><AddIn language="PYTHON" library="Template_addin.py" namespace="Template_addin"><ArcMap>
+    <Commands>
+        <ComboBox caption="Step 1: Data Source" category="Python Addin" class="DataSource" id="Template_addin.combobox" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip="Select the Satellite Data Source (JASON2 or ALTIKA)"><Help heading="" /></ComboBox>
+        <ComboBox caption="Step 2: Start_Date" category="Python Addin" class="StartDate_CB" id="Template_addin.combobox_2" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip="Date in YYYY/MM/DD format"><Help heading="" /></ComboBox>
+        <ComboBox caption="Step 3: End_Date" category="Python Addin" class="EndDate_CB" id="Template_addin.combobox_3" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip="Date in YYYY/MM/DD format"><Help heading="" /></ComboBox>
+        <Button caption="Step 4: GroundTrack" category="Python Addin" class="GroundTrack" id="Template_addin.button_2" image="" message="" tip="Click the button and select the ground track"><Help heading="" /></Button>
+        <Button caption="GroundTrack_B" category="Python Addin" class="GroundTrack_B" id="Template_addin.button" image="" message="" tip="Select the Satellite Ground Track"><Help heading="" /></Button>
+        <Tool caption="Step 5: Location1" category="Python Addin" class="Location1" id="Template_addin.tool" image="" message="" tip="Provide the location by clicking on the map "><Help heading="" /></Tool>
+        <Tool caption="Step 6: Location2" category="Python Addin" class="Location2" id="Template_addin.tool_1" image="" message="" tip="Provide the location by clicking on the map "><Help heading="" /></Tool>
+        <Button caption="Step 7: Compute" category="Python Addin" class="Compute" id="Template_addin.button_1" image="" message="" tip="Click to download and process the data"><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="Toolbar" category="Python Addin" id="Template_addin.toolbar" showInitially="true"><Items><ComboBox refID="Template_addin.combobox" /><ComboBox refID="Template_addin.combobox_2" /><ComboBox refID="Template_addin.combobox_3" /><Button refID="Template_addin.button_2" /><Button refID="Template_addin.button" /><Tool refID="Template_addin.tool" /><Tool refID="Template_addin.tool_1" /><Button refID="Template_addin.button_1" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        <Menu caption="This is the main Menu" category="Python Addin" id="Template_addin.menu" isRootMenu="true" isShortcutMenu="false" separator="false"><Items /></Menu>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
