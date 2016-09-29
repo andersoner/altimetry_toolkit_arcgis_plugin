@@ -1,0 +1,12 @@
+import os
+test1='C:/Altimetry_Toolkit/JASON2/Data/'
+dirs1=os.listdir(test1)
+tcycle=[]
+for tfile in dirs1:
+    if '.nc' in tfile:
+        tcycle.append(str(tfile[16:19])+','+str(tfile[12:15]))
+for tline1 in tcycle:
+    if '044,166' in tline1:
+        print "Success",tline1
+    else:
+        print "Failure",tline1
