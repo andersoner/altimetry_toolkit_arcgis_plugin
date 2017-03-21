@@ -4,10 +4,14 @@ An ArcGIS plugin to query, download, process, and graph, satellite altimetry mea
 Written by Jagan Ranganathan, USRA/NASA/SERVIR.
 
 Requirements:
-  Windows operating system
-  ArcGIS Desktop v. 10.2 (other 10.x versions may be compatible but have not been tested)
-  Jason-2 installer: https://drive.google.com/file/d/0B2BHImF-KF3eTmNQQmVPNDl4QW8/view?usp=sharing
-  Altika installer: https://drive.google.com/file/d/0B2BHImF-KF3eNkVHcC1RdV9JYXM/view?usp=sharing
+
+Windows operating system
+
+ArcGIS Desktop v. 10.2 (other 10.x versions may be compatible but have not been tested)
+
+Jason-2 installer: https://drive.google.com/file/d/0B2BHImF-KF3eTmNQQmVPNDl4QW8/view?usp=sharing
+
+Altika installer: https://drive.google.com/file/d/0B2BHImF-KF3eNkVHcC1RdV9JYXM/view?usp=sharing
 
 
 Supported by: USAID, NASA Applied Sciences Program & SERVIR Program
